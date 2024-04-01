@@ -29,6 +29,7 @@ public class PracticeSelenium {
 	ms.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	 List <WebElement> lst = ms.findElements(By.tagName("a"));
 	System.out.println("Total Links on Page --->"+lst.size());
+	System.out.println("Total Links on Page ");
 	 for(WebElement mg:lst)
 	 {
 		 
